@@ -7,3 +7,7 @@ set nu
 set cindent
 syntax on
 set ff=unix
+
+execute pathogen#infect()
+"autocmd VimEnter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
